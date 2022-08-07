@@ -1,2 +1,2 @@
-# Reverse(v1.0.0.3) Changelog:
-#### Changed the title of the file downloader when the latest version 
+# Reverse(v1.0.0.4) Changelog:
+#### Added a counter of the amount of tasks in the task list
