@@ -820,6 +820,7 @@ namespace ShareX
                 scMain.SplitterLineColor = ShareXResources.Theme.BorderColor;
                 pThumbnailView.BackColor = ShareXResources.Theme.BackgroundColor;
                 lblThumbnailViewTip.ForeColor = ShareXResources.Theme.TextColor;
+                itemnumber.ForeColor = ShareXResources.Theme.TextColor;
             }
             else
             {
@@ -854,6 +855,7 @@ namespace ShareX
                 tsmiTrayURLShorteners.Image = Resources.edit_scale_white;
                 tsmiTestURLShortener.Image = Resources.edit_scale_white;
                 tsmiShortenSelectedURL.Image = Resources.edit_scale_white;
+
             }
             else
             {
