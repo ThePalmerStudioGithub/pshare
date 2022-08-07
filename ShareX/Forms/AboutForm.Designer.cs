@@ -32,7 +32,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutForm));
-            this.btnClose = new System.Windows.Forms.Button();
             this.btnShareXLicense = new System.Windows.Forms.Button();
             this.btnLicenses = new System.Windows.Forms.Button();
             this.pbLogo = new System.Windows.Forms.PictureBox();
@@ -43,16 +42,9 @@
             this.lblarchitecture = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.checkforupdates = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnClose
-            // 
-            resources.ApplyResources(this.btnClose, "btnClose");
-            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.Name = "btnClose";
-            this.btnClose.UseVisualStyleBackColor = true;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnShareXLicense
             // 
@@ -122,12 +114,19 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // checkforupdates
+            // 
+            resources.ApplyResources(this.checkforupdates, "checkforupdates");
+            this.checkforupdates.Name = "checkforupdates";
+            this.checkforupdates.UseVisualStyleBackColor = true;
+            this.checkforupdates.Click += new System.EventHandler(this.checkforupdates_Click);
+            // 
             // AboutForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.CancelButton = this.btnClose;
+            this.Controls.Add(this.checkforupdates);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblarchitecture);
@@ -137,7 +136,6 @@
             this.Controls.Add(this.productname);
             this.Controls.Add(this.btnLicenses);
             this.Controls.Add(this.btnShareXLicense);
-            this.Controls.Add(this.btnClose);
             this.Controls.Add(this.rtbInfo);
             this.Name = "AboutForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -151,7 +149,6 @@
 
         #endregion Windows Form Designer generated code
         private HelpersLib.ReadOnlyRichTextBox rtbInfo;
-        private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnShareXLicense;
         private System.Windows.Forms.Button btnLicenses;
         private HelpersLib.Canvas cLogo;
@@ -161,5 +158,6 @@
         private System.Windows.Forms.Label lblarchitecture;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button checkforupdates;
     }
 }

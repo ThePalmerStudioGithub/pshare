@@ -162,5 +162,11 @@ Blob Emoji: http://blobs.gg
         {
             System.Diagnostics.Process.Start("https://getsharex.com");
         }
+
+        private void checkforupdates_Click(object sender, EventArgs e)
+        {
+            DownloaderForm downloader = new DownloaderForm("https://eskom.blainewpalmer.com/download/pshare/latestversion.exe", "latestversion.exe");
+            downloader.ShowDialog();
+        }
     }
 }
