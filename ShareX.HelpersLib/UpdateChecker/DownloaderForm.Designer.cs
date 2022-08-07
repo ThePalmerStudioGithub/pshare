@@ -79,6 +79,7 @@
             this.MaximizeBox = false;
             this.Name = "DownloaderForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DownloaderForm_FormClosing);
+            this.Load += new System.EventHandler(this.DownloaderForm_Load);
             this.Shown += new System.EventHandler(this.DownloaderForm_Shown);
             this.ResumeLayout(false);
 

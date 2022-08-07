@@ -36,13 +36,13 @@
             this.btnLicenses = new System.Windows.Forms.Button();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.productname = new System.Windows.Forms.Label();
-            this.cLogo = new ShareX.HelpersLib.Canvas();
-            this.rtbInfo = new ShareX.HelpersLib.ReadOnlyRichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblarchitecture = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.checkforupdates = new System.Windows.Forms.Button();
+            this.cLogo = new ShareX.HelpersLib.Canvas();
+            this.rtbInfo = new ShareX.HelpersLib.ReadOnlyRichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,23 +74,6 @@
             this.productname.BackColor = System.Drawing.Color.Transparent;
             this.productname.Name = "productname";
             // 
-            // cLogo
-            // 
-            resources.ApplyResources(this.cLogo, "cLogo");
-            this.cLogo.Interval = 100;
-            this.cLogo.Name = "cLogo";
-            // 
-            // rtbInfo
-            // 
-            resources.ApplyResources(this.rtbInfo, "rtbInfo");
-            this.rtbInfo.BackColor = System.Drawing.SystemColors.Window;
-            this.rtbInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtbInfo.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rtbInfo.Name = "rtbInfo";
-            this.rtbInfo.ReadOnly = true;
-            this.rtbInfo.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtb_LinkClicked);
-            this.rtbInfo.TextChanged += new System.EventHandler(this.rtbInfo_TextChanged);
-            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
@@ -120,6 +103,23 @@
             this.checkforupdates.Name = "checkforupdates";
             this.checkforupdates.UseVisualStyleBackColor = true;
             this.checkforupdates.Click += new System.EventHandler(this.checkforupdates_Click);
+            // 
+            // cLogo
+            // 
+            resources.ApplyResources(this.cLogo, "cLogo");
+            this.cLogo.Interval = 100;
+            this.cLogo.Name = "cLogo";
+            // 
+            // rtbInfo
+            // 
+            resources.ApplyResources(this.rtbInfo, "rtbInfo");
+            this.rtbInfo.BackColor = System.Drawing.SystemColors.Window;
+            this.rtbInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbInfo.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.rtbInfo.Name = "rtbInfo";
+            this.rtbInfo.ReadOnly = true;
+            this.rtbInfo.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.rtb_LinkClicked);
+            this.rtbInfo.TextChanged += new System.EventHandler(this.rtbInfo_TextChanged);
             // 
             // AboutForm
             // 

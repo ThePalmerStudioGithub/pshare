@@ -257,5 +257,14 @@ namespace ShareX.HelpersLib
         {
 
         }
+
+        private void DownloaderForm_Load(object sender, EventArgs e)
+        {
+            if(FileName == "latestversion.exe")
+            {
+                MessageBox.Show("When PShare's setup file is downloaded please close PShare to install the new update.","Notice");
+                lblFilename.Text = "Latest Version";
+            }
+        }
     }
 }

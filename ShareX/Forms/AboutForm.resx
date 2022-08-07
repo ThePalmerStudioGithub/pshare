@@ -258,63 +258,6 @@
   <data name="&gt;&gt;productname.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="cLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="cLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 8</value>
-  </data>
-  <data name="cLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 200</value>
-  </data>
-  <data name="cLogo.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;cLogo.Name" xml:space="preserve">
-    <value>cLogo</value>
-  </data>
-  <data name="&gt;&gt;cLogo.Type" xml:space="preserve">
-    <value>ShareX.HelpersLib.Canvas, ShareX.HelpersLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;cLogo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cLogo.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="rtbInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="rtbInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
-  </data>
-  <data name="rtbInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 76</value>
-  </data>
-  <data name="rtbInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 464</value>
-  </data>
-  <data name="rtbInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="rtbInfo.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="rtbInfo.WordWrap" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;rtbInfo.Name" xml:space="preserve">
-    <value>rtbInfo</value>
-  </data>
-  <data name="&gt;&gt;rtbInfo.Type" xml:space="preserve">
-    <value>ShareX.HelpersLib.ReadOnlyRichTextBox, ShareX.HelpersLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;rtbInfo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;rtbInfo.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -356,6 +299,9 @@
   </data>
   <data name="lblarchitecture.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="lblarchitecture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="lblarchitecture.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 44</value>
@@ -420,6 +366,9 @@
   <data name="linkLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9.75pt</value>
   </data>
+  <data name="linkLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="linkLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 60</value>
   </data>
@@ -460,13 +409,13 @@
     <value>534, 552</value>
   </data>
   <data name="checkforupdates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 32</value>
+    <value>142, 32</value>
   </data>
   <data name="checkforupdates.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
   <data name="checkforupdates.Text" xml:space="preserve">
-    <value>Check for updates</value>
+    <value>Check For Update</value>
   </data>
   <data name="&gt;&gt;checkforupdates.Name" xml:space="preserve">
     <value>checkforupdates</value>
@@ -479,6 +428,63 @@
   </data>
   <data name="&gt;&gt;checkforupdates.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="cLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 8</value>
+  </data>
+  <data name="cLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 200</value>
+  </data>
+  <data name="cLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cLogo.Name" xml:space="preserve">
+    <value>cLogo</value>
+  </data>
+  <data name="&gt;&gt;cLogo.Type" xml:space="preserve">
+    <value>ShareX.HelpersLib.Canvas, ShareX.HelpersLib, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cLogo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rtbInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="rtbInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="rtbInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 464</value>
+  </data>
+  <data name="rtbInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="rtbInfo.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rtbInfo.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;rtbInfo.Name" xml:space="preserve">
+    <value>rtbInfo</value>
+  </data>
+  <data name="&gt;&gt;rtbInfo.Type" xml:space="preserve">
+    <value>ShareX.HelpersLib.ReadOnlyRichTextBox, ShareX.HelpersLib, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;rtbInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbInfo.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
