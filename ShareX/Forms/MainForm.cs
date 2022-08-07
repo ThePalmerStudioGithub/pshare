@@ -2365,7 +2365,22 @@ namespace ShareX
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+           
+        }
 
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updatedcounttasks_Tick(object sender, EventArgs e)
+        {
+            itemnumber.Text = lvUploads.Items.Count.ToString() + " task(s)";
         }
 
         private void tsmiCombineImagesVertically_Click(object sender, EventArgs e)
