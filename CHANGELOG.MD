@@ -1,2 +1,2 @@
-# Reverse(v1.0.0.4) Changelog:
-#### Added a counter of the amount of tasks in the task list
+# Reverse(v1.0.0.5) Changelog:
+#### Made the task item count change fore color depending on theme.
