@@ -1,2 +1,2 @@
-# Reverse(v1.0.0.1) Changelog:
-#### Added a check for updates button that downloads the latest version's setup file and runs the setup process.
+# Reverse(v1.0.0.4) Changelog:
+#### Added a counter of the amount of tasks in the task list
